@@ -1,0 +1,17 @@
+version: 2
+sources:
+- name: dbt_divya
+  tables:
+  - name: test_table
+    columns:
+    - name: id
+    - name: day
+    - name: month
+    - name: year
+    - name: century
+    - name: temp_date
+    - name: test_bool
+    - name: test_boolean
+    - name: test_name
+    - name: test_datetime
+    - name: test2_datetime
